@@ -1,0 +1,176 @@
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -15px;
+}
+.footer, .push {
+	height: 15px;
+}
+body {
+	background-image: url("../images/subtle_white_mini_waves.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+.bodyContainer {
+	width: 960px;
+	min-width: 770px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+header {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	overflow: auto;
+	width: 100%;
+	min-width: 770px;
+}
+header h1 {
+	background-color: #4aaaa5;
+	padding: 25px;
+	margin: 20px 0 0 100px;
+	display: inline-block;
+	color: white;
+}
+header ul {
+	float: right;
+	margin: 50px 100px 0;
+}
+header li {
+	float: left;
+}
+header li#portLink {
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+header li a {
+	display: inline-block;
+	background-color: white;
+	padding: 0 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #aaa;
+}
+header li a:hover {
+	border-bottom: 1px dashed #4aaaa5;
+}
+header li a:visited {
+	color: #aaa
+}
+header a.active {
+	background-color: rgb(226,246,255);
+}
+footer {
+	clear: both;
+	padding: 30px;
+	text-align: center;
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	color: white;
+}
+.mainContainer {
+	width: 568px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	margin: 40px -70px 40px 100px;
+	padding: 40px;
+	line-height: 150%;
+	float: left;
+}
+.mainContainer .header {
+	padding: 20px 0;
+	background-color: white;
+	border-bottom: 2px solid rgb(210,210,210)
+}
+.bio {
+	margin-top: 40px;
+}
+.bio img {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 0 40px 40px 0;
+}
+.connect {
+	background-color: white;
+	width: 238px;
+	border: 1px solid #dddddd;
+	float: left;
+	margin: 40px 0 40px 100px;
+	padding: 15px;
+}
+.connect .header {
+	padding: 10px;
+	background-color: white;
+	border-bottom: 2px solid rgb(210,210,210)
+}
+.connect img {
+	height: 40px;
+	width: 40px;
+	padding: 10px 15px;
+}
+.portfolio {
+	margin-top: 40px;
+}
+.portfolioContainer {
+	height: 200px;
+	width: 200px;
+	margin: 0 20px 20px 0;
+}
+.portfolio a {
+	text-decoration: none;
+}
+.portfolioContainer p {
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+	margin-top: 155px;
+	height: 20px;
+	width: 200px;
+	padding: 10px 0;
+}
+#hangman {
+	background-image: url(../images/placeholder-1.jpg);
+	display: inline-block;
+}
+#rpgGame {
+	background-image: url(../images/placeholder-2.jpg);
+	display: inline-block;
+}
+#triviaGame {
+	background-image: url(../images/placeholder-3.jpg);
+	display: inline-block;
+}
+#rutgersInfo {
+	background-image: url(../images/placeholder-4.jpg);
+	display: inline-block;
+}
+#rps {
+	background-image: url(../images/placeholder-5.jpg);
+	display: inline-block;
+}
+.contactForm {
+	padding: 20px 0;
+}
+.contactForm p {
+	margin: 10px 0 5px;
+}
+.contactForm input {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 6px;
+}
+.contactForm #contactMessage {
+	height: 200px;
+}
+.contactForm textarea {
+	border: 1px solid #ccc;
+}
