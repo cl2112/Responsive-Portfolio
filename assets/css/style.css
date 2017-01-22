@@ -174,3 +174,31 @@ footer {
 .contactForm textarea {
 	border: 1px solid #ccc;
 }
+
+
+@media (max-width: 980px) {
+	body {
+		background-image: url("../images/placeholder-1.jpg");
+	}
+	.mainContainer {
+		max-width: 40%;
+	}
+	.connect {
+		min-width: 251px;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		background-image: url("../images/placeholder-2.jpg");
+	}
+	.mainContainer {
+		margin: 5% 5%;
+	}
+}
+
+@media (max-width: 640px) {
+	body {
+		background-image: url("../images/placeholder-3.jpg");
+	}
+}
