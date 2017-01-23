@@ -2,79 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>About Christian Liguori</title>
+	<title>Christian Liguori</title>
 </head>
-
 <body>
-
 	<div class="wrapper">
-
-		<header class="navbar">
-
-			<h1>Christian Liguori</h1>
-
-			<ul>
-				
-				<li><a href="index.html">About</a></li>
-				<li id="portLink"><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html" class="active">Contact</a></li>
-			
-			</ul>
-
-		</header>
-
-		<div class="bodyContainer">
-
-			<section class="mainContainer">
-
-				<div class="header">
-
-					<h2>Contact</h2>
-
-				</div>
-
-				<div class="contactForm">
-
-					<p>Name</p>
-					<form>
-						<input type="text" name="contactName" placeholder="  John Smith">
-					</form>
-					<p>Email</p>
-					<form>
-						<input type="Email" name="contactEmail" placeholder="  example@gmail.com">
-					</form>
-					<p>Message</p>
-						<textarea name="contactMessage" rows="10" cols="80">
-					</textarea>
-
-				</div>
-				
-			</section>
-
-		</div>
-
-		<div class="connect">
-			
-			<div class="header">
-				
-				<h3>Connect with Me</h3>
-			
+		<header>
+			<div class="headerContent">
+				<h1>Christian Liguori</h1>
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li id="portLink"><a href="portfolio.html">Portfolio</a></li>
+					<li class="active"><a href="contact.html">Contact</a></li>
+				</ul>
 			</div>
-			
-			<a href="https://github.com/cl2112" target="_blank"><img src="assets/images/github-icon.png" alt="Github"></a>
-			<a href="https://www.linkedin.com/in/christian-liguori-75917b133" target="_blank"><img src="assets/images/linkedin-icon.png" alt="LinkedIn"></a>
-			<a href="http://stackexchange.com/users/9924614/christian-liguori" target="_blank"><img src="assets/images/overflow-icon.png" alt="StackOverflow"></a>
-
+		</header>
+		<div class="allContent">
+			<div class="mainContent">
+				<h1>Contact</h1>
+				<p>Name</p>
+				<input type="text" name="formName" id="formName" placeholder="John Smith">
+				<p>Email</p>
+				<input type="text" name="formEmail" id="formEmail" placeholder="Email@gmail.com">
+				<p>Message</p>
+				<textarea rows="10" type="text" name="formMessage" id="formMessage"></textarea>
+				<span id="btnSubmit">Submit</span>
+			</div>
+			<aside class="connect">
+				<h2>Connect with Me</h2>
+				<ul>
+					<li><a href="" target="_blank"><img src="assets/images/github-icon.png" alt="github icon"></a></li>
+					<li><a href="" target="_blank"><img src="assets/images/linkedin-icon.png" alt="linkedin icon"></a></li>
+					<li><a href="" target="_blank"><img src="assets/images/overflow-icon.png" alt="stack overflow icon"></a></li>
+				</ul>
+			</aside>
+			<div class="push"></div>
 		</div>
-
 	</div>
-
-	<footer class="footer">&copy Copyright 2016 Christian Liguori
+	<footer>
+		<div class="footerContent">
+			&copy Copyright 2016 Christian Liguori
+		</div>
 	</footer>
-
 </body>
 </html>

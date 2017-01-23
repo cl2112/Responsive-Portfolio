@@ -1,204 +1,190 @@
 html, body {
 	height: 100%;
+	width: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url(../images/sandpaper.png);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.17em;
+}
+h4 {
+	font-size: 1.12em;
+}
+h5 {
+	font-size: .83em;
+}
+h6 {
+	font-size: .75em;
 }
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -15px;
+	margin: 0 auto -101px;
 }
-.footer, .push {
-	height: 15px;
-}
-body {
-	background-image: url("../images/subtle_white_mini_waves.png");
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-}
-.bodyContainer {
-	width: 960px;
-	min-width: 770px;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 24px;
-	color: #4aaaa5;
+.push {
+	height: 101px;
+	clear: both;
 }
 header {
-	background-color: #ffffff;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: #cccccc;
+	background-color: white;
 	overflow: auto;
-	width: 100%;
-	min-width: 770px;
+	border-bottom: 2px solid #777777;
+}
+.headerContent {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
 }
 header h1 {
 	background-color: #4aaaa5;
-	padding: 25px;
-	margin: 20px 0 0 100px;
-	display: inline-block;
+	float: left;
 	color: white;
+	padding: 20px;
 }
-header ul {
+.headerContent ul {
+	font-size: 0;
 	float: right;
-	margin: 50px 100px 0;
+	margin: 27.5px 0;
 }
-header li {
-	float: left;
-}
-header li#portLink {
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
-}
-header li a {
+.headerContent li {
+	font-size: 17px;
 	display: inline-block;
-	background-color: white;
-	padding: 0 10px;
-	text-align: center;
-	text-decoration: none;
-	color: #aaa;
 }
-header li a:hover {
-	border-bottom: 1px dashed #4aaaa5;
+.headerContent li.active {
+	background-color: rgba(74,170,165,0.6);
 }
-header li a:visited {
-	color: #aaa
-}
-header a.active {
-	background-color: rgb(226,246,255);
-}
-footer {
-	clear: both;
-	padding: 30px;
-	text-align: center;
-	background-color: #666666;
-	border-top: 5px solid #4aaaa5;
+.headerContent li.active a {
 	color: white;
 }
-.mainContainer {
-	width: 568px;
-	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	margin: 40px -70px 40px 100px;
-	padding: 40px;
-	line-height: 150%;
+.headerContent a {
+	display: inline-block;
+	padding: 0 15px 0;
+	text-decoration: none;
+	color: #777777;
+}
+.headerContent a:link {
+	
+}
+.headerContent a:visited {
+	
+}
+.headerContent a:hover {
+	background-color: teal;
+	color: white;
+}
+.headerContent a:focus {
+	
+}
+.headerContent a:active {
+	
+}
+.headerContent #portLink {
+	border-left: 1px solid #777777;
+	border-right: 1px solid #777777;
+}
+.allContent {
+	height: 100%;
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0;
+	ovesrflow: auto;
+}
+.mainContent {
 	float: left;
-}
-.mainContainer .header {
-	padding: 20px 0;
+	width: 588px;
 	background-color: white;
-	border-bottom: 2px solid rgb(210,210,210)
+	padding: 30px;
+	overflow: auto;	
+	border: 1px solid #777777;
 }
-.bio {
-	margin-top: 40px;
+.mainContent h1 {
+	padding: 10px 0 30px;
+	border-bottom: 3px solid #c3c3c3;
+	margin: 0 0 20px;
+	color: #4aaaa5;
 }
-.bio img {
+.mainContent #bioPic {
 	height: 200px;
 	width: 200px;
 	float: left;
-	margin: 0 40px 40px 0;
-}
-.connect {
-	background-color: white;
-	width: 238px;
-	border: 1px solid #dddddd;
-	float: left;
-	margin: 40px 0 40px 100px;
-	padding: 15px;
-}
-.connect .header {
-	padding: 10px;
-	background-color: white;
-	border-bottom: 2px solid rgb(210,210,210)
-}
-.connect img {
-	height: 40px;
-	width: 40px;
-	padding: 10px 15px;
-}
-.portfolio {
-	margin-top: 40px;
-}
-.portfolioContainer {
-	height: 200px;
-	width: 200px;
 	margin: 0 20px 20px 0;
 }
-.portfolio a {
-	text-decoration: none;
+.connect {
+	float: left;
+	width: 228px;
+	margin: 0 0 0 40px;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #777777;
 }
-.portfolioContainer p {
+.connect h2 {
+	padding: 0 0 20px;
+	border-bottom: 3px solid #c3c3c3;
+	margin: 0 0 20px;
+	color: #4aaaa5;
+}
+.connect img {
+	height: 60px;
+	width: 60px;
+}
+.connect ul {
+	font-size: 0px;
+}
+.connect li {
+	display: inline-block;
+	width: 33%;
+	font-size: 18px;
 	text-align: center;
-	background-color: #4aaaa5;
-	color: white;
-	margin-top: 155px;
-	height: 20px;
-	width: 200px;
-	padding: 10px 0;
 }
-#hangman {
-	background-image: url(../images/placeholder-1.jpg);
-	display: inline-block;
-}
-#rpgGame {
-	background-image: url(../images/placeholder-2.jpg);
-	display: inline-block;
-}
-#triviaGame {
-	background-image: url(../images/placeholder-3.jpg);
-	display: inline-block;
-}
-#rutgersInfo {
-	background-image: url(../images/placeholder-4.jpg);
-	display: inline-block;
-}
-#rps {
-	background-image: url(../images/placeholder-5.jpg);
-	display: inline-block;
-}
-.contactForm {
-	padding: 20px 0;
-}
-.contactForm p {
-	margin: 10px 0 5px;
-}
-.contactForm input {
+footer {
 	width: 100%;
-	border: 1px solid #ccc;
-	padding: 6px;
+	background-color: #777777;
+	color: white;
+	border-top: 5px solid #4aaaa5;
+	clear: both;
 }
-.contactForm #contactMessage {
-	height: 200px;
+.footerContent {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 40px;
+	text-align: center;
 }
-.contactForm textarea {
-	border: 1px solid #ccc;
+.portImg {
+	display: inline-block;
+	position: relative;
+	margin: 0 20px 20px 0;
 }
-
-
-@media (max-width: 980px) {
-	body {
-		background-image: url("../images/placeholder-1.jpg");
-	}
-	.mainContainer {
-		max-width: 40%;
-	}
-	.connect {
-		min-width: 251px;
-	}
+.portImg span {
+	position: absolute;
+    top: 75%;
+    left: 0%;
+    width: 180px;
+    padding: 10px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
 }
-
-@media (max-width: 768px) {
-	body {
-		background-image: url("../images/placeholder-2.jpg");
-	}
-	.mainContainer {
-		margin: 5% 5%;
-	}
+#formName, #formEmail, #formMessage {
+	width: 98%;
+	padding: 4px 5px;
+	margin: 10px 0 20px;
 }
-
-@media (max-width: 640px) {
-	body {
-		background-image: url("../images/placeholder-3.jpg");
-	}
+#btnSubmit {
+	background-color: #4aaaa5;
+	padding: 10px 25px;
+	text-align: center;
+	color: white;
+	width: 75px;
 }
