@@ -188,6 +188,9 @@ footer {
 	color: white;
 	width: 75px;
 }
+.buttonLink {
+		text-decoration: none;
+}
 @media (max-width: 980px) {
 	body {
 		background-image: url(../images/github-icon.png);
@@ -288,9 +291,6 @@ footer {
 	.portImg span {
 		width: 90%;
 		padding: 5%;
-	}
-	.buttonLink {
-		text-decoration: none;
 	}
 	.connect {
 		clear: both;
