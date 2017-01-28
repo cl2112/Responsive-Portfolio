@@ -192,9 +192,6 @@ footer {
 		text-decoration: none;
 }
 @media (max-width: 980px) {
-	body {
-		background-image: url(../images/github-icon.png);
-	}
 	.headerContent {
 	width: 80%;
 	margin: 0 auto;
@@ -255,9 +252,6 @@ footer {
 	}
 }
 @media (max-width: 768px) {
-	body {
-		background-image: url(../images/linkedin-icon.png);
-	}
 	.headerContent {
 		width: 95%;
 		margin: 0 auto;
@@ -323,9 +317,6 @@ footer {
 	}
 }
 @media (max-width: 640px) {
-	body {
-		background-image: url(../images/overflow-icon.png);
-	}
 	.headerContent {
 		width: 100%;
 		margin: 0 auto;
